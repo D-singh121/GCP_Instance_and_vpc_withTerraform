@@ -1,0 +1,28 @@
+# Terraform .gitignore
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfstate.lock.info
+
+my-terraform-project*
+
+# .terraform directory
+.terraform/
+
+# .idea directory (for JetBrains IDEs)
+.idea/
+
+# .vscode directory (for Visual Studio Code)
+.vscode/
+
+# .terraform.lock.hcl file
+terraform.lock.hcl
+
+# CLI configuration files
+terraform.rc
+
+# Ignore .terraform.d/plugins directory
+# Add this line if using Terraform 0.13+ with auto-installed plugins
+.terraform.d/plugins/
