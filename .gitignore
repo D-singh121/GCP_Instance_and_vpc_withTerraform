@@ -5,8 +5,14 @@
 *.tfstate.backup
 *.tfstate.backup.*
 *.tfstate.lock.info
+*.terraform.lock.hcl
 
-my-terraform-project*
+terraform.tfstate*
+terraform.tfstate.backup*
+
+
+*my-terraform-project*
+*.json
 
 # .terraform directory
 .terraform/
