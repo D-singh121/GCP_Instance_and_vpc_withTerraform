@@ -1,5 +1,4 @@
-
-								Terraform GCP Instance and VPC Deployment
+Terraform GCP Instance and VPC Deployment
 
 Overview:
 This Terraform project demonstrates how to deploy a Google Cloud Platform (GCP) Compute Engine instance and Virtual Private Cloud (VPC) network using Terraform.
